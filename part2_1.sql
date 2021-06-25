@@ -1,0 +1,1 @@
+SELECT AVG(TIMESTAMPDIFF(YEAR, birthday, NOW())) AS age FROM users;
